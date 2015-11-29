@@ -1,0 +1,12 @@
+#
+# EPRD caching solution
+#
+
+config EPRD
+	tristate "Enable EPRD"
+	depends on PROC_FS
+	default m
+	---help---
+	Eventually persistent ram disk
+
+	If unsure, say N.
